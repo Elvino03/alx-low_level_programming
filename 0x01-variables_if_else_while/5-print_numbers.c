@@ -11,7 +11,7 @@ int main(void)
 {
 	int i;
 
-	if (i = 0; i < 10; i++;)
+	if (; i < 10; i++;)
 		printf("%d", i);
     printf("\n");
 	

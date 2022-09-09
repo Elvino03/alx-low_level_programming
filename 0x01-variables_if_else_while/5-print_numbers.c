@@ -1,10 +1,19 @@
+#include <stdlib.h>
 #include <stdio.h>
 
-#include <ctype.h>
 /**
- * main - main block
- * Description: Get a random number and print the number
- * positive,negative or zero
- * Return: Always 0 (success)
+ * main - Entry point
+ *
+ * Return: always Return 0
+ *
  */
 int main(void)
+{
+	int i;
+
+	if (i = 0; i < 10; i++;)
+		printf("%d", i);
+    printf("\n");
+	
+	return (0);
+}

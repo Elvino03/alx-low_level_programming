@@ -1,18 +1,16 @@
-#include <stdlib.h>
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - Entry point
- *
- * Return: always Return 0
- *
+ * Description: main - Print out a string to stdout.
+ * Return: 0 if successfull.
  */
 int main(void)
 {
-	int i = 0;
+	int i;
 
-	if (i < 10)
-		printf("%d\n", i);
-	i++;
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
+	printf("\n");
+
 	return (0);
 }
